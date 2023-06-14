@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <div id="sectionStart">
+        <div class="bg-del "> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+            <div class="pt-5 d-flex flex-column justify-content-center">
+                <h1 class=" text-white text-center"> Tax Filling Application </h1>
+                <p class="text-white text-center"> Get started </p>
+                <div class="   d-flex flex-row justify-content-center">
+                    <div>
+                        <button class=" mr-3 btn btn-warning"> Admin </button>
+                        <button class="btn btn-warning" onclick="display('sectionPage1')"> login/Signup</button>                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="display('sectionPage1')">
+         <div class="bg-del p-5">
+            <div class="mb-3">
+              <label for="formFile" class="form-label text-white">Default file input example</label>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+            <div class="mb-3">
+              <label for="formFileMultiple" class="form-label text-white">Multiple files input example</label>
+              <input class="form-control" type="file" id="formFileMultiple" multiple>
+            </div>
+            <div class="mb-3">
+              <label for="formFileDisabled" class="form-label text-white">Disabled file input example</label>
+              <input class="form-control" type="file" id="formFileDisabled" disabled>
+            </div>
+            <div class="mb-3">
+              <label for="formFileSm" class="form-label text-white">Small file input example</label>
+              <input class="form-control form-control-sm" id="formFileSm" type="file">
+            </div>
+            <div>
+              <label for="formFileLg" class="form-label text-white">Large file input example</label>
+              <input class="form-control form-control-lg" id="formFileLg" type="file">
+            </div>
+            
+            <div class="  pt-5 m-3 d-flex flex-row justify-content-end">
+                <button onclick="display('sectionStart')"  class="btn btn-warning">  Go Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>
